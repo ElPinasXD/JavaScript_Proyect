@@ -727,6 +727,9 @@ if (validarCamposNumericos(["numero1"])) {
 }
 }
 
+
+// Ccilos
+
 function multiplos3() {
     var contenido = `
     <style>
@@ -743,7 +746,7 @@ function multiplos3() {
     </style>
 
     <form id="formulario16" class="formulario">
-    
+        <h2> Multiplos de 3 </h2>
         <button type="button" onclick="examinarmultiplos3()">Ver Múltiplos</button>
     </form>
 `;
@@ -856,7 +859,7 @@ function numCuadrado1a30() {
 
     <form id="formulario19" class="formulario">  
       <h2>Numeros cuadrados del 1 al 30 </h2>
-        <button type="button" onclick="examinarnumCuadrado1a30()">Ver Num alcuadrado</button>
+        <button type="button" onclick="examinarnumCuadrado1a30()">Resultado</button>
     </form>
 `;
 document.getElementById("ejercicio19").innerHTML = contenido;
